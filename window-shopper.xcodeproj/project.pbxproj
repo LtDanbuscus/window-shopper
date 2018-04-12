@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		222EC9C6207EA22C00C0C15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222EC9C5207EA22C00C0C15A /* AppDelegate.swift */; };
-		222EC9C8207EA22C00C0C15A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222EC9C7207EA22C00C0C15A /* MainVC.swift */; };
+		222EC9C8207EA22C00C0C15A /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222EC9C7207EA22C00C0C15A /* mainVC.swift */; };
 		222EC9CB207EA22C00C0C15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222EC9C9207EA22C00C0C15A /* Main.storyboard */; };
 		222EC9CD207EA22D00C0C15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222EC9CC207EA22D00C0C15A /* Assets.xcassets */; };
 		222EC9D0207EA22D00C0C15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222EC9CE207EA22D00C0C15A /* LaunchScreen.storyboard */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		222EC9C2207EA22C00C0C15A /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222EC9C5207EA22C00C0C15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		222EC9C7207EA22C00C0C15A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		222EC9C7207EA22C00C0C15A /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
 		222EC9CA207EA22C00C0C15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		222EC9CC207EA22D00C0C15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222EC9CF207EA22D00C0C15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		222EC9D7207EA2D500C0C15A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				222EC9C7207EA22C00C0C15A /* MainVC.swift */,
+				222EC9C7207EA22C00C0C15A /* mainVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			files = (
 				222EC9DA207EA3F400C0C15A /* CurrencyTxtField.swift in Sources */,
 				22DDF8DD207F94B7009A0074 /* Wage.swift in Sources */,
-				222EC9C8207EA22C00C0C15A /* MainVC.swift in Sources */,
+				222EC9C8207EA22C00C0C15A /* mainVC.swift in Sources */,
 				222EC9C6207EA22C00C0C15A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
